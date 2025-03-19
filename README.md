@@ -1,7 +1,9 @@
 # Pauli Correlation Encoding for Optimization Problems
 
-This repository implements **Pauli Correlation Encoding (PCE)**  optimization techniques to solve combinatorial optimization problems such as the **Knapsack Problem**. 
+This repository implements **[Pauli Correlation Encoding (PCE)](https://www.nature.com/articles/s41467-024-55346-z)**  optimization techniques to solve combinatorial optimization problems such as the **Knapsack Problem**. 
 
+
+See the [paper](https://www.nature.com/articles/s41467-024-55346-z), and see their implementation [here](https://doi.org/10.5281/zenodo.14049120)
 ---
 
 ## Features
