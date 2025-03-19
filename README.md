@@ -1,6 +1,6 @@
 # Pauli Correlation Encoding for Optimization Problems
 
-This repository implements **Pauli Correlation Encoding (PCE)** and related optimization techniques to solve combinatorial optimization problems such as the **Knapsack Problem**, **Max-Cut**, and **Maximum Independent Set**. It also includes tools for generating benchmark datasets, evaluating solutions, and checkpointing intermediate results.
+This repository implements **Pauli Correlation Encoding (PCE)**  optimization techniques to solve combinatorial optimization problems such as the **Knapsack Problem**. 
 
 ---
 
@@ -45,7 +45,7 @@ This repository implements **Pauli Correlation Encoding (PCE)** and related opti
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/MonitSharma/pauli_correlation_encoding.git
+   git clone https://github.com/SMU-Quantum/pauli-correlation-encoding.git
    cd pauli_correlation_encoding
 ```
 2. Install dependencies:
@@ -94,14 +94,6 @@ To load a checkpoint:
 
 Use the tools in the `qubo_to_maxcut/` directory to transform QUBO problems into Weighted Max-Cut problems. You can customize your input matrices and parameters for specific optimization tasks.
 
----
-
-### 4. Results and Analysis
-
-The results of QUBO transformations and optimizations are saved in `qubo_results.csv`. Use this file to:
-- Analyze performance metrics.
-- Compare multiple optimization approaches.
-- Visualize outcomes using additional tools.
 
 ---
 
@@ -121,6 +113,5 @@ This project is licensed under the MIT License. See `LICENSE` for more details.
 
 ## Author
 
-[Monit Sharma](https://github.com/MonitSharma)  
 For queries, feel free to reach out or open an issue in the repository.
 
